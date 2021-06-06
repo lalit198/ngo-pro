@@ -665,33 +665,13 @@ box-shadow: 0 0 10px #ffffff!important;
   align-items: center;
 }
 
-.one:hover{
+.one{
   color: white!important;
   background-color: #E83E8C;
-}
-.one:hover a{
-  color: white!important;
-  
-}
-
-.two:hover{
-  color: white!important;
-  background-color: #E83E8C;
-}
-.two:hover a{
-  color: white!important;
   
 }
 
 
-.three:hover{
-  color: white!important;
-  background-color: #E83E8C;
-}
-.three:hover a{
-  color: white!important;
-  
-}
 
 
 
@@ -705,6 +685,20 @@ box-shadow: 0 0 10px #ffffff!important;
       display: block!important;
       border: none!important;
   }
+  
+}
+
+@media only screen and (max-width: 767px) {
+
+ .contact_us h2{
+   text-align: center;
+ }
+ .contact_us{
+   margin-left: .5rem!important;
+ }
+ .bill_btn{
+   width: 96%!important;
+ }
   
 }
 
