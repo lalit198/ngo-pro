@@ -1,4 +1,4 @@
-*{font-family: 'Poppins', sans-serif;}
+*{font-family: 'Poppins', sans-serif; margin: 0; padding: 0; box-sizing: border-box;}
 .customNavbar{ background: white; padding: 0;}
 .logo{width: 144px;}
 .navbarContainer{padding: 0 6%; border-bottom: 1px solid #b1b1b1;}
@@ -667,8 +667,15 @@ box-shadow: 0 0 10px #ffffff!important;
 
 .one{
   color: white!important;
-  background-color: #E83E8C;
-  
+  background-color: #E83E8C;  
+}
+
+.one a{
+  color: white!important;
+  }
+
+.bill btn{
+    
 }
 
 
@@ -698,15 +705,65 @@ box-shadow: 0 0 10px #ffffff!important;
  }
  .bill_btn{
    width: 96%!important;
+     margin: 1.5rem auto!important;
+     margin-bottom: -1.5rem!important;
  }
   
 }
+
+@media only screen and (max-width: 582px) {
+    .frm_main{
+        width: 90%;!important;
+    }
+  
+ }
 
 
 @media only screen and (max-width: 496px) {
  .check_out{
    height: 15vh;
 }
+ }
+
+
+/*------------------Confirmation START------------------------------------------*/
+
+
+.thr{
+  color: white!important;
+  background-color: #E83E8C;
+  }
+
+.thr a{
+  color: white!important;
+  }
+
+@media only screen and (max-width: 767px) {
+
+.icon_div p{
+    font-size: 1.5rem!important;
+    line-height: 1.4rem!important:
+        
+    }
+
+  
+}
+
+@media only screen and (max-width: 410px) {
+ .icon_div p{
+    font-size: 1.2rem!important;
+     line-height: 1.5rem!important;
+        
+    }
+    
+ }
+@media only screen and (max-width: 320px) {
+ .icon_div p{
+    font-size: .9rem!important;
+     line-height: 1rem!important;
+        
+    }
+    
  }
 
 
