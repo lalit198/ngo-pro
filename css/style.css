@@ -729,16 +729,20 @@ box-shadow: 0 0 10px #ffffff!important;
 /*------------------Confirmation START------------------------------------------*/
 
 
-.thr{
+.three{
   color: white!important;
   background-color: #E83E8C;
   }
 
-.thr a{
+.three a{
   color: white!important;
   }
 
 @media only screen and (max-width: 767px) {
+    
+    .icon_div{
+        margin-top: 4.5rem!important;
+    }
 
 .icon_div p{
     font-size: 1.5rem!important;
