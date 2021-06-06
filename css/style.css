@@ -663,6 +663,7 @@ box-shadow: 0 0 10px #ffffff!important;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .one{
@@ -674,9 +675,7 @@ box-shadow: 0 0 10px #ffffff!important;
   color: white!important;
   }
 
-.bill btn{
-    
-}
+
 
 
 
@@ -686,13 +685,7 @@ box-shadow: 0 0 10px #ffffff!important;
 
   .check_out{
     height: 22vh;
- }
-
-  .billing_button {
-      display: block!important;
-      border: none!important;
-  }
-  
+ } 
 }
 
 @media only screen and (max-width: 767px) {
@@ -703,15 +696,34 @@ box-shadow: 0 0 10px #ffffff!important;
  .contact_us{
    margin-left: .5rem!important;
  }
+
+ .billing_button {
+  display: block!important;
+  border: none!important;
+}
  .bill_btn{
-   width: 80%!important;
+   width: 95%!important;
      margin: 1.5rem auto!important;
      margin-bottom: -1.5rem!important;
  }
+ .billbtn {
+  
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.check_main{
+  width: 95%;
+}
 
  .contact_us{
   margin-left: auto!important;
   margin-right: auto!important;
+}
+
+.check_main{
+  padding-left: .75rem!important;
+  padding-right: .75rem!important;
 }
   
 }
@@ -803,6 +815,26 @@ box-shadow: 0 0 10px #ffffff!important;
   
 }
 
+@media only screen and (max-width: 1204px) {
+.rs-box span{
+  border: none!important;
+}
+
+   
+ }
+
+ @media only screen and (max-width: 767px) {
+ .table_main{
+   margin-top: 2rem;
+
+ }
+ .mips_con h3{
+  text-align: center;
+   }
+  
+     
+   }
+
 
 @media only screen and (max-width: 496px) {
   .subtotal{
@@ -814,17 +846,7 @@ box-shadow: 0 0 10px #ffffff!important;
     text-align: left;
     
    }
-   .billing-heading2::after{
-     content: "";
-     position: absolute;
-     
-     bottom: -5px;
-     left: 0;
-     
-     height: 3px;
-     width: 70%;
-     background-color: #18BFC3;
-   }
+ 
    }
  
 

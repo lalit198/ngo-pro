@@ -104,8 +104,10 @@
   <!-- banner section start -->
   <section style="width: 100%;">
     <div class="check_out d-flex align-items-center">
-      <h1 class="text-white  container" style="font-family: Poppins ; color: #041D57 !important;font-size: 3rem;">
+      <div class="check_main container">
+      <h1 class="text-white" style="font-family: Poppins Bold; color: #041D57 !important;">
         Checkout</h1>
+      </div>
     </div>
   </section>
 
@@ -113,9 +115,9 @@
 
         <div class="billing_button  d-flex justify-content-between" style="border: 1px solid grey;">
 
-            <div class="billbtn w-100" style="height: 100%!important;"> <a href=""  style="text-decoration: none; color: #CCCCCC;">Billing Info</a></div>
-            <div class="billbtn two w-100" style="height: 100%!important;"> <a href=""  style="text-decoration: none; color: #CCCCCC;">Review & Payment</a></div>
-            <div class="billbtn w-100" style="height: 100%!important;"> <a href=""  style="text-decoration: none; color: #CCCCCC;">Confirmation</a></div>
+            <div class="billbtn" style="height: 100%!important;"> <a href=""  style="text-decoration: none; color: #CCCCCC;  font-family: Gotham Book; font-size: 1.1rem;">Billing Info</a></div>
+            <div class="billbtn two" style="height: 100%!important;"> <a href=""  style="text-decoration: none; color: #CCCCCC;  font-family: Gotham Book; font-size: 1.1rem;">Review & Payment</a></div>
+            <div class="billbtn" style="height: 100%!important;"> <a href=""  style="text-decoration: none; color: #CCCCCC;  font-family: Gotham Book; font-size: 1.1rem;">Confirmation</a></div>
         </div>
     </div>
 <!--
@@ -130,7 +132,7 @@
   </div>
 -->
 
-
+<div class="container table_main">
   <div class="table table-responsive container mt-1">
     <table class="table table-bordered border-primary ">
       <thead>
@@ -150,10 +152,10 @@
           <td><img src="img/img23.png " class="img img-fluid text-center" alt=""
               style="height: 50px; width: 50px; text-align: center;"></td>
           <td>Help Tania Go to School</td>
-          <td class="text-center"><span style="border: 1px solid grey; padding: 5px ; text-align: center;">Rs
-              1,000</span></td>
+          <td class="text-center rs-box"><span style="border: .1rem solid grey; padding: .2rem .3rem; text-align: center;">
+            Rs 1,000</span></td>
           <td class="text-center "> 1</td>
-          <td class="text-center ">Rs 1,000</td>
+          <td class="text-center "> Rs 1,000</td>
           <td class="text-center "><i class="fa fa-times text-center" style="color: red;"></i></td>
         </tr>
 
@@ -186,10 +188,11 @@
       </div>
     </div>
   </div>
+  </div>
 
-<div class="container">
+<div class="container mb-4">
   <div class="row  mx-auto">
-    <div class="col-xl-12 col-md-12 col-sm-12">
+    <div class="col-xl-12 col-md-12 col-sm-12 mips_con">
       <h3 class="billing-heading2 mt-1" style="font-family: poppins SemiBold; color: #041D57;">
         MIPS Payment Sytem (Credit or Debit Card)</h3>
 
@@ -201,29 +204,29 @@
     <div class="col-xl-12 col-md-12 col-sm-12">
 
       <form>
-        <div class="row my-5 contact_us">
+        <div class="row mb-4 mt-3 contact_us">
          
 
           <div class="col-xl-6 col-md-6 col-sm-12 mt-1">
 
-            <span style="color: #041D57; font-family: Gotham Medium; font-weight: bold;">Name of the Card*</span>
+            <span style="color: #041D57; font-family: Gotham Medium;">Name of the Card*</span>
             <input type="text" class="form-control" name="country">
 
             <div class="row">
               <div class="col-xl-4 col-md-4 col-sm-12 mt-3">
 
-                <span style="color: #041D57; font-family: Gotham Medium; font-weight: bold;">Expiration Date*</span>
+                <span style="color: #041D57; font-family: Gotham Medium;">Expiration Date*</span>
                 <input type="text" class="form-control" name="firstname"> 
               </div>
               <div class="col-xl-4 col-md-4 col-sm-12 mt-3">
 
-                <span style="color: #041D57; font-family: Gotham Medium; font-weight: bold; visibility: hidden;">LastName*</span>
+                <span style="color: #041D57; font-family: Gotham Medium; visibility: hidden;">LastName*</span>
                 <input type="text" class="form-control" name="lastname">
               </div>
 
                <div class="col-xl-4 col-md-4 col-sm-12 mt-3">
 
-                <span style="color: #041D57; font-family: Gotham Medium; font-weight: bold;">CVV*</span>
+                <span style="color: #041D57; font-family: Gotham Medium;">CVV*</span>
                 <input type="text" class="form-control" name="lastname">
               </div>
             </div>
@@ -235,7 +238,7 @@
 
           
             
-            <span style="color: #041D57; font-family: Gotham Medium; font-weight: bold;">Card Number*</span>
+            <span style="color: #041D57; font-family: Gotham Medium;">Card Number*</span>
             <input type="text" class="form-control" name="next">
            
 
@@ -245,7 +248,7 @@
 <div class="d-xl-block d-none d-lg-block d-xl-block">
 
 
-          <div class="form-group form-check mt-3" style="margin-left:-1.5rem;">
+          <div class="form-group form-check mt-3 mb-4" style="margin-left:-1.5rem;">
             <label class="form-check-label">
          <span style="color: gray; font-family: Gotham Book; font-size:14px;">Your personal data will be used to proctess your order, support your experience throughout this website, and for other purposes described in our <span style="color: #18BFC3;font-family:gotham;">Privacy Policy</span></span> 
             </label>
@@ -263,7 +266,7 @@
           </div>
         </div>
 
-          <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn mt-4 contact_btn"
+          <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn mt-4 contact_btn bill_btn"
             style="background-color: #18BFC3; width: 20%;margin-left: .6rem; color: #041D57; Font-family: Gotham; border-radius: 0;">Next</button>
 
         </div>
