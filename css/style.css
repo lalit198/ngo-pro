@@ -348,6 +348,7 @@ box-shadow: 0 0 10px #ffffff!important;
   border-width: 0 0 .355rem .355rem;
   display: inline-block;
   padding: .6rem;
+  border-radius: 18%;
   margin-right: -3rem!important;
 }
 
@@ -356,6 +357,7 @@ box-shadow: 0 0 10px #ffffff!important;
   border-width: 0 .355rem .355rem 0;
   display: inline-block;
   padding: .6rem;
+  border-radius: 18%;
 }
 
 .owl-carousel .right{
