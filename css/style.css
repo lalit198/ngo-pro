@@ -389,6 +389,18 @@ box-shadow: 0 0 10px #ffffff!important;
   .tt-2{
     margin-top: -.5rem;
   }
+
+  .vol_2 h3{
+    font-size: 2rem;
+  }
+
+  .vol_3 h3{
+    font-size: 1.2rem;
+  }
+
+  .vol_3 h5{
+    font-size: 1.3rem!important;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -398,6 +410,51 @@ box-shadow: 0 0 10px #ffffff!important;
 .about_main_sec{
   width: 100%!important;
 }
+  .mid_banner_head h2{
+    font-size: 2rem!important;
+  } 
+  
+  .abt p{
+    font-size: 1.2555rem!important;
+    line-height: 1.7rem!important;
+    padding-top: 1px!important;
+  }
+
+  .abt h5{
+    font-size: 1.3555rem!important;
+    line-height: 1.7rem!important;
+  }
+
+  #content{
+    width: 97.5%!important;
+    padding-left: .6rem!important;
+    padding-right: 0!important;
+  }
+
+  .mid{
+    margin-top: 1rem!important;
+  }
+
+  .sml p{
+    font-size: 1.2555rem!important;
+    line-height: 1.8rem!important;
+  }
+
+  .sml h3{
+    font-size: 1.4555rem!important;
+    
+  }
+
+  .owl h4{
+    font-size: 1.5rem!important;
+  }
+
+  .owl p{
+    font-size: 1.3rem!important;
+    font-weight: 350;
+    margin-top: .5rem;
+  }
+
 }
 
 
@@ -406,6 +463,64 @@ box-shadow: 0 0 10px #ffffff!important;
     height: 35vh;
     
   }
+
+  .abt p{
+    font-size: 1.2555rem!important;
+    line-height: 1.7rem!important;
+    padding-top: 1px!important;
+  }
+
+  .abt h5{
+    font-size: 1.3555rem!important;
+    line-height: 1.7rem!important;
+  }
+
+  #content{
+    width: 97.5%!important;
+    padding-left: .6rem!important;
+    padding-right: 0!important;
+  }
+
+  .news p{
+    margin-top: 5.5rem!important;
+  }
+
+  .news h5{
+    margin-top: -1rem!important;
+    font-size: 1.3rem!important;
+  }
+  .news1{
+    margin-top: .8rem!important;
+  }
+
+  .mid h2{
+    margin-top: 1.5rem!important;
+  }
+
+  .sml p{
+    font-size: 1.2555rem!important;
+    line-height: 1.8rem!important;
+  }
+
+  .sml h3{
+    font-size: 1.4555rem!important;
+    
+  }
+
+  .main_content i{
+    font-size: 4rem!important;
+  }
+
+  .owl h4{
+    font-size: 1.5rem!important;
+  }
+
+  .owl p{
+    font-size: 1.3rem!important;
+    font-weight: 350;
+    margin-top: .5rem;
+  }
+
   
   
 }
@@ -426,9 +541,9 @@ box-shadow: 0 0 10px #ffffff!important;
   .tt-2{
     margin-top: -.5rem;
   }
-  .mid_banner_head h2{
+  /* .mid_banner_head h2{
     font-size: 1.3rem;
-  }
+  } */
   
 }
 
