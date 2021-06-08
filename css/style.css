@@ -280,8 +280,7 @@ box-shadow: 0 0 10px #ffffff!important;
 
 @media only screen and (max-width: 496px) {
    .main_news{
-
-    height: 15vh;
+     height: 15vh;
 
     }
 }
@@ -344,13 +343,46 @@ box-shadow: 0 0 10px #ffffff!important;
   color: #ffffff!important;
 }
 
+.arr1{
+  border: solid black;
+  border-width: 0 0 .355rem .355rem;
+  display: inline-block;
+  padding: .6rem;
+  margin-right: -3rem!important;
+}
+
+.arr2{
+  border: solid black;
+  border-width: 0 .355rem .355rem 0;
+  display: inline-block;
+  padding: .6rem;
+}
+
+.owl-carousel .right{
+   transform: rotate(-45deg); 
+}
+
+.owl-carousel .left{
+  transform: rotate(45deg); 
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+  background: #fff!important;
+}
+.owl-next {
+  right: -1px!important;
+}
+
+
 
 @media only screen and (max-width: 496px) {
   .main_about{
-
-   height: 15vh;
+     height: 15vh;
 
    }
+   .owl-next {
+    right: -5px!important;
+  }
 }
 
 
@@ -411,7 +443,7 @@ box-shadow: 0 0 10px #ffffff!important;
   width: 100%!important;
 }
   .mid_banner_head h2{
-    font-size: 2rem!important;
+    font-size: 2.2rem!important;
   } 
   
   .abt p{
@@ -425,14 +457,21 @@ box-shadow: 0 0 10px #ffffff!important;
     line-height: 1.7rem!important;
   }
 
-  #content{
-    width: 97.5%!important;
-    padding-left: .6rem!important;
-    padding-right: 0!important;
+  .mid{
+    width: 70%!important;
+    padding-left: 0!important;
+    margin-left: 0!important;
+    
   }
 
-  .mid{
-    margin-top: 1rem!important;
+  .mid_main{
+    padding-left: 2rem!important;
+  }
+
+  .mid h2{
+    margin-top: 2.2rem!important;
+    line-height: 3rem!important;
+    
   }
 
   .sml p{
@@ -458,9 +497,15 @@ box-shadow: 0 0 10px #ffffff!important;
 }
 
 
+
 @media only screen and (max-width: 430px) {
   .mid_banner_main{
-    height: 35vh;
+    height: 38vh;
+    
+  }
+  .mid h2{
+    margin-top: 2rem!important;
+    line-height: 3rem!important;
     
   }
 
@@ -475,11 +520,7 @@ box-shadow: 0 0 10px #ffffff!important;
     line-height: 1.7rem!important;
   }
 
-  #content{
-    width: 97.5%!important;
-    padding-left: .6rem!important;
-    padding-right: 0!important;
-  }
+ 
 
   .news p{
     margin-top: 5.5rem!important;
@@ -513,6 +554,7 @@ box-shadow: 0 0 10px #ffffff!important;
   .main_content{
     padding-left: .5rem!important;
     width: 97%!important;
+    padding-right: 0!important;
     
   }
  
@@ -556,10 +598,15 @@ box-shadow: 0 0 10px #ffffff!important;
 
 
 
+/*--------------- Smile section------------------ */
+
+
+
+
 
 
 #content{
-  padding: 2rem;
+  /* padding: 2rem; */
   margin-bottom: 1.5rem;
 }
 
