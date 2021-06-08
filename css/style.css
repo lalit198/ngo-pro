@@ -510,6 +510,12 @@ box-shadow: 0 0 10px #ffffff!important;
   .main_content i{
     font-size: 4rem!important;
   }
+  .main_content{
+    padding-left: .5rem!important;
+    width: 97%!important;
+    
+  }
+ 
 
   .owl h4{
     font-size: 1.5rem!important;
@@ -895,7 +901,7 @@ box-shadow: 0 0 10px #ffffff!important;
 
 .icon_div p{
     font-size: 1.5rem!important;
-    line-height: 1.4rem!important:
+    line-height: 1.4rem!important;
         
     }
 
