@@ -202,6 +202,7 @@ box-shadow: 0 0 10px #ffffff!important;
     
 }
 
+
 .contact_us .form-control{
     border-radius: 0;
     border: 1px solid grey!important;
@@ -1034,5 +1035,141 @@ box-shadow: 0 0 10px #ffffff!important;
    }
  
    }
+
+
+
+   /*--------------- OUR PROJECT---------------------- */
+
+
+   .project_pic{
+    width: 100%;
+    height: 30vh;
+    background-image: url('../img/48477493-8636-4475-8b16-3c7edabefd7b.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+   }
+   
+ 
+
+ /* @media only screen and (max-width: 1205px) {
+  .img_svg img{
+      margin-top: -6.5rem!important;
+     
+  }
+} */
+
+     @media only screen and (max-width: 2000px) {
+  
+      .svg_vec{
+          width: 57%!important;
+        }
+       }
+
+       @media only screen and (max-width: 1400px) {
+  
+        .svg_vec{
+            width: 63%!important;
+          }
+         }
+
+   
+     
+       @media only screen and (max-width: 1199px) {
+     
+      .svg_vec{
+        width: 80%!important;
+      }
+        
+     } 
+
+     @media only screen and (max-width: 995px) {
+      /* .img_svg img{
+          margin-top: -5rem!important;
+         
+      } */
+      .project_icn{
+        width: 20%!important;
+      }
+    
+    }
+
+     @media only screen and (max-width: 992px) {
+  
+      .svg_vec{
+          width: 93%!important;
+        }
+       
+
+       .svg_vec .fis_p{
+        margin-left: 0!important;
+        }
+
+    .svg_vec .last_p{
+          margin-right: 0!important;
+          }    
+     }
+
+     @media only screen and (max-width: 769px) {
+ 
+      .project_icn{
+        width: 25%!important;
+      }
+    
+      .pro_dis h2{
+      font-size: 25px!important;
+      }
+    }
+
+    @media only screen and (max-width: 582px) {
+      .btn_project{
+          margin-top: 1rem!important;
+          padding-left: .8rem!important;
+          padding-right: .8rem!important;
+      }
+    
+   }
+
+   
+     @media only screen and (max-width: 544px) {
+      .pro_dis h2{
+        font-size: 20px!important;
+        text-align: center;
+        }
+        .pro_dis p{
+          text-align: center;
+          }
+        .pro_dis {
+          width: 95%!important;
+          }
+     
+       }
+
+       @media only screen and (max-width: 412px) {
+        .project_icn{
+          width: 30%!important;
+        }
+        .pro_dis h2{
+          font-size: 18px!important;
+          }
+      
+          .svg_vec{
+            width: 100%!important;
+          }
+         }
+      
+         .svg_vec p{
+           font-size: 1rem!important;
+         }
+
+         @media only screen and (max-width: 340px) {
+          .project_icn{
+            width: 34%!important;
+          }
+         
+           }
+      
+
+
+   
  
 
